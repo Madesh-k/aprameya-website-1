@@ -11,13 +11,18 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <ScrollToTop />
+      {/* This will handle scrolling based on URL changes */}
       <Routes>
         <Route path="/home" element={<Home />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/jobs" element={<Job />} />
-        <Route path="/getTouch" element={<GetTouch />} />
         <Route path="/contact" element={<Contact />} />
+      </Routes>
+      <ScrollToTop />
+
+      <Routes>
+        {" "}
+        <Route path="/getTouch" element={<GetTouch />} />
+        <Route path="/jobs" element={<Job />} />
       </Routes>
     </Router>
   );

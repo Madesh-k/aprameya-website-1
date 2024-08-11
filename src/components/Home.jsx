@@ -18,7 +18,7 @@ function Home() {
         </section>
         <Founder />
         <About />
-        <Services />
+        <Services id="services" />
         <Clients />
         <Contact />
         <Footer />

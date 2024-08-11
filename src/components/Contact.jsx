@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div
       id="contact"
-      className="flex flex-col lg:flex-row items-center bg-gray-100 mx-auto w-full max-w-7xl  rounded-lg shadow-lg"
+      className="flex flex-col lg:flex-row items-center bg-gray-100 mx-auto w-full max-w-7xl py-20 rounded-lg shadow-lg"
     >
       <div className="lg:w-1/2 w-full flex items-center justify-center text-white p-8">
         <img

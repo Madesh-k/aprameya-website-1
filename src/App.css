@@ -1,3 +1,7 @@
 .nav {
   background-color: #f3f2fc;
 }
+
+html {
+  scroll-behavior: smooth;
+}

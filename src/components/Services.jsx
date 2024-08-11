@@ -10,7 +10,7 @@ function Services() {
   return (
     <div
       id="services"
-      className="w-full max-w-7xl bg-white p-8 rounded-lg shadow-lg mx-auto mt-10"
+      className="w-full max-w-7xl bg-white p-8 rounded-lg shadow-lg mx-auto mt-10 py-20"
     >
       <h2 id="services" className="text-2xl font-bold mb-6">
         OUR SERVICE
