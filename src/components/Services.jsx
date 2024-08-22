@@ -52,7 +52,7 @@ function Services() {
         </div>
         <div className="bg-white p-6 ">
           <img
-            src="images/service1.png"
+            src="images/servicesgif.gif"
             alt="service"
             style={{ height: "250px" }}
             className="w-full h-21"
@@ -110,7 +110,7 @@ function Services() {
                 </li>
               </ul>
             </div>
-            <div className="bg-blue-100 p-6 rounded-lg shadow-md">
+            <div className="bg-cyan-100 p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold mb-2">
                 Psychological Profiling and Persona Building
               </h3>
@@ -141,7 +141,7 @@ function Services() {
                 </li>
               </ul>
             </div>
-            <div className="bg-blue-100 p-6 rounded-lg shadow-md">
+            <div className="bg-orange-100 p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold mb-2">
                 Audience Engagement and Growth
               </h3>

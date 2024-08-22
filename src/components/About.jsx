@@ -26,8 +26,10 @@ function About() {
             />
           </div>
           <p>
-            Aprameya is a personal branding agency dedicated to helping
-            individuals build significant and authentic personal brands...
+          Aprameya is a personal branding agency dedicated to 
+          helping individuals  build significant authentic ,and authorative personal
+          brands.By leveraging psychological stratigies and theories in marketing ,
+          we empower our clients to create a compelling presence across warious platforms
           </p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow-md">
@@ -49,8 +51,9 @@ function About() {
             />
           </div>
           <p>
-            Our vision at Aprameya is to empower individuals to build
-            significant and authentic personal brands that resonate...
+          Our  vision  at  Aprameya  is  to empower  individual  to  build 
+          significant and  authentic personal  brand  that  resonate
+          with  their  true  selves  and stand   out   in  a  competitive fields. 
           </p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow-md">
@@ -72,8 +75,8 @@ function About() {
             />
           </div>
           <p>
-            Aprameya is a personal branding agency dedicated to helping
-            individuals build significant and authentic personal brands...
+          Aprameya is a personal branding firm focused on assisting individuals 
+          in creating impactful and authentic personal identities.
           </p>
         </div>
       </div>

@@ -1,7 +1,6 @@
 import "../Home.css";
 import Nav1 from "./Nav1";
 import Contact from "./Contact";
-import Founder from "./Founder";
 import Services from "./Services";
 import Clients from "./Clients";
 import About from "./About";
@@ -16,7 +15,6 @@ function Home() {
         <section className="section">
           <Section />
         </section>
-        <Founder />
         <About />
         <Services id="services" />
         <Clients />

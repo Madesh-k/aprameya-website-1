@@ -32,7 +32,7 @@ export default function Section() {
           </div>
           <div className="flex-1">
             <img
-              src="images/image1.png"
+              src="images/image1.jpg"
               alt="image-1"
               className="w-full h-full object-cover"
             />

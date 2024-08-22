@@ -91,7 +91,7 @@ function GetTouch() {
                 className="w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
                 placeholder="Enter your email"
               />
-              {/* <button
+               {/*<button
                 type="button"
                 className="ml-4 px-3 py-1.5 bg-indigo-600 text-white text-sm rounded-md shadow-md hover:bg-indigo-700 transition duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-indigo-500"
               >
@@ -135,24 +135,8 @@ function GetTouch() {
               placeholder="Enter your reason for joining"
             ></textarea>
           </div>
-          <div className="flex flex-col items-center mb-6">
-            <label
-              className="text-lg font-medium mb-2 text-gray-700"
-              htmlFor="captcha"
-            >
-              Enter the Captcha
-            </label>
+          <div className="flex flex-col items-center mb-6">  
             <div className="flex items-center">
-              <input
-                type="text"
-                id="captcha"
-                className={`w-1/3 px-4 py-3 border ${
-                  captchaValid ? "border-gray-300" : "border-red-500"
-                } rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500`}
-                placeholder="Enter the captcha"
-                value={inputCaptcha}
-                onChange={handleCaptchaChange}
-              />
               <span className="ml-4 px-3 py-1.5 bg-gray-200 text-gray-700 text-sm rounded-md shadow-md">
                 {captcha}
               </span>
@@ -164,6 +148,18 @@ function GetTouch() {
                 Refresh
               </button>
             </div>
+            <div className="pt-4">
+            <input
+                type="text"
+                id="captcha"
+                className={` px-4 py-3 border ${
+                  captchaValid ? "border-gray-300" : "border-red-500"
+                } rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500`}
+                placeholder="Enter the captcha"
+                value={inputCaptcha}
+                onChange={handleCaptchaChange}
+              />
+              </div>
           </div>
           {!captchaValid && (
             <p className="text-red-500 text-sm mt-2 text-center">

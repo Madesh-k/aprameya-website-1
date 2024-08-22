@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="md:flex md:justify-between md:items-start">
           <div className="mb-6 md:mb-0 text-center md:text-left">
             <img
-              src="images/logo.png"
+              src="images/logofooter.png"
               alt="APARMEYA Logo"
               style={{ height: "150px", width: "300px" }}
               className="object-contain mx-auto md:mx-0"
@@ -46,10 +46,10 @@ export default function Footer() {
 
             {/* Contact Info Section */}
             <div className="mt-8 md:mt-0">
-              <div className="bg-gray-100 p-6 rounded-lg shadow-lg dark:bg-gray-800 text-center md:text-left">
+              <div className="bg-[#C7BBBB] p-6 rounded-lg shadow-lg dark:bg-gray-800 text-center md:text-left">
                 <a href="">
                   <p className="mb-4 flex items-center justify-center md:justify-start">
-                    <span className="inline-block w-6 h-6 mr-3 bg-gray-200 rounded-full flex items-center justify-center dark:bg-gray-700">
+                    <span className="inline-block w-6 h-6 mr-3 bg-[#C7BBBB] rounded-full flex items-center justify-center dark:bg-gray-700">
                       <svg
                         className="h-8 w-8 text-red-500"
                         fill="none"
@@ -78,7 +78,7 @@ export default function Footer() {
                     href="mailto:Aprameya.team@gmail.com"
                     className="flex items-center"
                   >
-                    <span className="inline-block w-6 h-6 mr-3 bg-gray-200 rounded-full flex items-center justify-center dark:bg-gray-700">
+                    <span className="inline-block w-6 h-6 mr-3 bg-[#C7BBBB] rounded-full flex items-center justify-center dark:bg-gray-700">
                       <svg
                         className="h-8 w-8 text-red-500"
                         width="24"
@@ -99,7 +99,7 @@ export default function Footer() {
                   </a>
                 </p>
                 <p className="mb-4 flex items-center justify-center md:justify-start">
-                  <span className="inline-block w-6 h-6 mr-3 bg-gray-200 rounded-full flex items-center justify-center dark:bg-gray-700">
+                  <span className="inline-block w-6 h-6 mr-3 bg-[#C7BBBB] rounded-full flex items-center justify-center dark:bg-gray-700">
                     <svg
                       className="h-8 w-8 text-red-500"
                       width="24"

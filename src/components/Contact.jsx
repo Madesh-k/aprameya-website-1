@@ -4,11 +4,11 @@ function Contact() {
   return (
     <div
       id="contact"
-      className="flex flex-col lg:flex-row items-center bg-gray-100 mx-auto w-full max-w-7xl py-20 rounded-lg shadow-lg"
+      className="flex flex-col lg:flex-row items-center mx-auto w-full  max-w-7xl bg-[#0D2736] shadow-lg"
     >
-      <div className="lg:w-1/2 w-full flex items-center justify-center text-white p-8">
+      <div className="lg:w-1/2 w-full flex items-center justify-center p-6">
         <img
-          src="images/image4.jpg"
+          src="images/footer.jfif"
           alt="photo"
           style={{
             height: "460px",
@@ -18,8 +18,8 @@ function Contact() {
           className="rounded-lg shadow-md"
         />
       </div>
-      <div className="lg:w-1/2 w-full p-8">
-        <form className="bg-white p-6 rounded-lg shadow-md">
+      <div className="lg:w-1/2 w-full p-8 bg-[#D9D9D9]">
+        <form className=" p-6 rounded-lg">
           <h1 className="text-center text-2xl font-bold mb-6">Contact Us</h1>
           <div className="mb-4">
             <label
@@ -65,7 +65,7 @@ function Contact() {
           </div>
           <div className="flex items-center justify-center">
             <button
-              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+              className="bg-[#0D2736] hover:bg-[#36A4E1] text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
               type="button"
             >
               Send Msg
