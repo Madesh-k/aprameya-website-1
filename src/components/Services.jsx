@@ -54,8 +54,9 @@ function Services() {
           <img
             src="images/servicesgif.gif"
             alt="service"
-            style={{ height: "250px" }}
-            className="w-full h-21"
+            /*removed beaused gif is streched
+             style={{ height: "250px" }}
+            className="w-full h-21"*/
           />
         </div>
         <div className="bg-pink-100 p-6 rounded-lg shadow-md">

@@ -4,7 +4,7 @@ function About() {
   return (
     <div
       id="about"
-      className="w-full max-w-7xl bg-blue-100 p-8 rounded-lg shadow-lg mx-auto"
+      className="w-full max-w-7xl bg-blue-100 p-8 rounded-lg shadow-lg mx-auto mt-4"
     >
       <h2 className="text-2xl font-bold mb-6">KNOW ABOUT US</h2>
 
@@ -26,10 +26,11 @@ function About() {
             />
           </div>
           <p>
-          Aprameya is a personal branding agency dedicated to 
-          helping individuals  build significant authentic ,and authorative personal
-          brands.By leveraging psychological stratigies and theories in marketing ,
-          we empower our clients to create a compelling presence across warious platforms
+            Aprameya is a personal branding agency dedicated to helping
+            individuals build significant authentic ,and authorative personal
+            brands.By leveraging psychological stratigies and theories in
+            marketing , we empower our clients to create a compelling presence
+            across warious platforms
           </p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow-md">
@@ -51,9 +52,9 @@ function About() {
             />
           </div>
           <p>
-          Our  vision  at  Aprameya  is  to empower  individual  to  build 
-          significant and  authentic personal  brand  that  resonate
-          with  their  true  selves  and stand   out   in  a  competitive fields. 
+            Our vision at Aprameya is to empower individual to build significant
+            and authentic personal brand that resonate with their true selves
+            and stand out in a competitive fields.
           </p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow-md">
@@ -75,8 +76,8 @@ function About() {
             />
           </div>
           <p>
-          Aprameya is a personal branding firm focused on assisting individuals 
-          in creating impactful and authentic personal identities.
+            Aprameya is a personal branding firm focused on assisting
+            individuals in creating impactful and authentic personal identities.
           </p>
         </div>
       </div>
